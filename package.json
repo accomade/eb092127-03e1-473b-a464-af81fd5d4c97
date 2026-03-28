@@ -1,0 +1,39 @@
+{
+	"name": "omni-site-template",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"prebuild": "cd fonts-generator && ./fonts",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "prettier --write .",
+		"lint": "prettier --check ."
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^2.55.0",
+		"@sveltejs/vite-plugin-svelte": "^5.1.1",
+		"@types/js-cookie": "^3.0.6",
+		"@types/luxon": "^3.7.1",
+		"@types/squirrelly": "^7.1.5",
+		"prettier": "^3.8.1",
+		"prettier-plugin-svelte": "^3.5.1",
+		"svelte": "^5.54.1",
+		"svelte-check": "^4.4.5",
+		"typescript": "^5.9.3",
+		"vite": "^6.4.1"
+	},
+	"dependencies": {
+		"@fontsource/arizonia": "^5.2.8",
+		"@fontsource/carrois-gothic": "^5.2.8",
+		"@fontsource/raleway": "^5.2.8",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@twicpics/components": "^0.31.4",
+		"accomadesc": "^0.3.42",
+		"gdpr-cooco-banner": "^0.0.11",
+		"js-cookie": "^3.0.5",
+		"luxon": "^3.7.2"
+	}
+}
