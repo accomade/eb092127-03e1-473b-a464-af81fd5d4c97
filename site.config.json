@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "pages": {
+    "home": {
+      "name": "Home",
+      "path": "/"
+    }
+  },
+  "domain": "test-update-1774726503218.accoma.de"
+}
